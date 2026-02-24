@@ -1,0 +1,50 @@
+.fab {
+  position: fixed;
+  bottom: 104px;
+  right: 108px; // 36px (existing FAB right) + 64px (existing FAB width) + 8px gap
+  z-index: 1000;
+  opacity: 0;
+  transform: translateY(8px);
+  pointer-events: none;
+  transition: opacity 0.2s ease, transform 0.2s ease;
+
+  &.visible {
+    opacity: 1;
+    transform: translateY(0);
+    pointer-events: auto;
+
+    &:hover {
+      transform: translateY(0) scale(1.1);
+    }
+  }
+}
+
+.fabButton {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  background-color: "[theme:themePrimary, default: #0078d4]";
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.3);
+  transition: box-shadow 0.2s ease, background-color 0.2s ease;
+
+  &:hover {
+    background-color: "[theme:themeDarkAlt, default: #106ebe]";
+    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.4);
+  }
+
+  &:focus-visible {
+    outline: 2px solid white;
+    outline-offset: 2px;
+  }
+}
+
+.icon {
+  font-size: 16px;
+  color: white;
+}

@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "back-to-top",
+    "libraryId": "99e0432c-4c35-4b34-87b5-1be60ed70e92",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "Back-To-Top",
+    "solutionShortDescription": "Back-To-Top description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

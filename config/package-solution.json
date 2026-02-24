@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "back-to-top-client-side-solution",
+    "id": "99e0432c-4c35-4b34-87b5-1be60ed70e92",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Shashank Gupta",
+      "websiteUrl": "https://github.com/HiIAmShashank",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": ""
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "Adds a floating back-to-top button to SharePoint pages"
+      },
+      "longDescription": {
+        "default": "A lightweight SharePoint Framework web part that renders a floating action button. When users scroll down the page, the button appears and smoothly scrolls them back to the top on click. Supports SharePoint Online, Microsoft Teams, and Viva Connections."
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": ["Productivity"]
+    },
+    "features": [
+      {
+        "title": "Back to Top",
+        "description": "Adds a floating back-to-top button that appears when scrolling down the page.",
+        "id": "6b60d101-0993-4ff9-9caa-06fcbef6d429",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/back-to-top.sppkg"
+  }
+}
